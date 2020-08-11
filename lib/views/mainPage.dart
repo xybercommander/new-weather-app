@@ -76,12 +76,12 @@ class _MainPageState extends State<MainPage> {
     
   }
 
-  void getCityList() async {
-    List<Weather> tempCityList = await Weather().decodeCityList();
-    setState(() {
-      cityList = tempCityList;      
-    }); 
-  }
+  // void getCityList() async {
+  //   List<Weather> tempCityList = await Weather().decodeCityList();
+  //   setState(() {
+  //     cityList = tempCityList;      
+  //   }); 
+  // }
 
 
   removeNullFromList() {
